@@ -170,7 +170,13 @@ return {
         gopls = {},
         pyright = {},
         tsserver = {},
-        marksman = {},
+        marksman = {
+          settings = {
+            markdown = {
+              rooted = true,
+            },
+          },
+        },
         lua_ls = {
           settings = {
             Lua = {
